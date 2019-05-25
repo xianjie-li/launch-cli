@@ -1,6 +1,7 @@
 # launch-cli
+配置模板存放在 <https://github.com/Iixianjie/webpack-templates> 仓库， 切换branche可以查看不同的配置。
 
-## Introduce
+## Installation
 ```
 npm install @lxjx/launch-cli -g
 or
@@ -9,7 +10,7 @@ yarn global add @lxjx/launch-cli  // 使用yarn安装全局前，请先确保你
 
 <br>
 
-## cli
+## Usage
 ### list
 查看可用的配置列表
 ```
