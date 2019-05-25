@@ -1,5 +1,15 @@
 # launch-cli
 
+## Introduce
+```
+npm install @lxjx/launch-cli -g
+or
+yarn global add @lxjx/launch-cli  // 使用yarn安装全局前，请先确保你已经正确设置bin目录。
+```
+
+<br>
+
+## cli
 ### list
 查看可用的配置列表
 ```
