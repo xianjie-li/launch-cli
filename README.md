@@ -1,7 +1,4 @@
-# cli-test
-> 通过提供的项目配置快速启动项目
-
-## cli
+# launch-cli
 
 ### list
 查看可用的配置列表
