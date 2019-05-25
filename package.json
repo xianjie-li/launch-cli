@@ -1,0 +1,19 @@
+{
+  "name": "@lxjx/launch-cli",
+  "version": "0.1.0",
+  "description": "auto generate project template",
+  "main": "index.js",
+  "author": "lxj",
+  "license": "MIT",
+  "bin": {
+    "launch": "bin/launch.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.3.1",
+    "ora": "^3.4.0"
+  }
+}
