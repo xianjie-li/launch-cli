@@ -41,7 +41,7 @@ function downloadTemplate() {
   const downloadSpinner = ora('下载模板中...').start();
   downloadSpinner.color = 'blue';
   
-  download(config.repo + '#' + templateName || 'webpack', projectDir, { clone: false }, async function (err) {
+  download(config.repo + config.repoPrefix + templateName, projectDir, { clone: false }, async function (err) {
     if(err) log.error(err);
     downloadSpinner.succeed('下载完成');
 
@@ -57,7 +57,10 @@ function downloadTemplate() {
 
     if(installModules) {
       let installModules = await inquirer.list('选择下载方式', ['yarn', 'npm install', 'cnpm install']);
+      downloadSpinner.text = '正在下载依赖...';
+      downloadSpinner.start();
       await exec(installModules);
+      downloadSpinner.stop();
     } else {
       log.log('下载依赖后运行项目');
       log.log(`   cd ./${projectName}`);

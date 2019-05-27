@@ -1,4 +1,5 @@
 module.exports = {
-  repo: 'github:Iixianjie/webpack-templates',
-  listUrl: 'https://api.github.com/repos/Iixianjie/webpack-templates/branches',
+  repo: 'github:Iixianjie/',
+  repoPrefix: 'launch-template-',
+  listUrl: 'https://api.github.com/users/Iixianjie/repos',
 }
