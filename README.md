@@ -1,7 +1,19 @@
 # launch-cli
-配置模板存放在 <https://github.com/Iixianjie/webpack-templates> 仓库， 切换branche可以查看不同的配置。
 
-## Installation
+<br>
+
+## template
+
+目前已有的配置模板
+
+| 名称       | repo地址                                                     | 说明                              |
+| ---------- | ------------------------------------------------------------ | --------------------------------- |
+| vue-cli-v3 | [vue-cli-v3](https://github.com/Iixianjie/launch-template-vue-cli-v3) | vue-cli3 + 大量示例代码和样板代码 |
+| webpack-v3 | [webpack-v3](https://github.com/Iixianjie/launch-template-webpack-v3) | 切图配置，支持多页面，pug等       |
+
+<br>
+
+## Install
 ```
 npm install @lxjx/launch-cli -g
 or
@@ -10,7 +22,7 @@ yarn global add @lxjx/launch-cli  // 使用yarn安装全局前，请先确保你
 
 <br>
 
-## Usage
+## Cli
 ### list
 查看可用的配置列表
 ```
