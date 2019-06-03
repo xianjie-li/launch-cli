@@ -1,6 +1,6 @@
 {
   "name": "@lxjx/launch-cli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "auto generate project template",
   "main": "index.js",
   "author": "lxj",
