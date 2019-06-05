@@ -4,22 +4,18 @@ module.exports = function exec(cmd) {
   return new Promise((resolve, reject) => {
     const cp = cp_exec(cmd, (err, stdout, stderr) => {
       if(err) {
-        console.log(stderr);
         reject(err);
       }else {
-        console.log(stdout);
         resolve();
       }
     })
 
     cp.stdout.on('data', function (data) {
-      if(/http:\/\/localhost/.test(data)) {
-        console.log(data);
-      }
+      console.log(data);
     });
     
     cp.stderr.on('data', function (err) {
-      console.log(data);
+      console.log(err);
     });
   })
 }
