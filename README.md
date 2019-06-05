@@ -8,7 +8,7 @@
 
 | 名称       | repo地址                                                     | 说明                              |
 | ---------- | ------------------------------------------------------------ | --------------------------------- |
-| vue-cli-v3 | [vue-cli-v3](https://github.com/Iixianjie/launch-template-vue-cli-v3) | vue-cli3 + 大量示例代码和样板代码 |
+| vue-cli-v3 | [vue-cli-v3](https://github.com/Iixianjie/launch-template-vue-cli-v3) | vue-cli3 + 大量示例代码和样板代码以及额外配置 |
 | webpack-v3 | [webpack-v3](https://github.com/Iixianjie/launch-template-webpack-v3) | 切图配置，支持多页面，pug等       |
 
 <br>
