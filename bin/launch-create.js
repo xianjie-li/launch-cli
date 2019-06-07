@@ -28,6 +28,11 @@ if(program.args.length === 0) program.help();
 
 let templateName = program.args[0];
 let projectName = program.args[1];
+
+if(!templateName || !projectName) {
+  log.error(`确实必要参数${chalk.red('<template-name>')}, ${chalk.red('<project-name>')}`);
+}
+
 let projectDir = path.join(processDir, projectName);
 
 if(fs.existsSync(projectDir)) {
