@@ -11,7 +11,7 @@ exports.log = function (...args) {
 exports.warning = function (...args) {
   if (args[0] instanceof Error) args[0] = args[0].message.trim()
   const msg = format.apply(format, args)
-  console.error(chalk.bgYellow('error'), sep, msg)
+  console.log(chalk.bgYellow('error'), sep, msg)
 }
 
 exports.error = function (...args) {
