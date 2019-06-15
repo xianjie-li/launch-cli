@@ -6,10 +6,11 @@
 
 目前已有的配置模板
 
-| 名称       | repo地址                                                     | 说明                              |
+| 名称       | repo                                                     | 说明                              |
 | ---------- | ------------------------------------------------------------ | --------------------------------- |
 | vue-cli-v3 | [vue-cli-v3](https://github.com/Iixianjie/launch-template-vue-cli-v3) | vue-cli3 + 大量示例代码和样板代码以及额外配置 |
-| webpack-v3 | [webpack-v3](https://github.com/Iixianjie/launch-template-webpack-v3) | 切图配置，支持多页面，pug等       |
+| webpack-v3 | [webpack-v3](https://github.com/Iixianjie/launch-template-webpack-v3) | 切图配置，支持多页面       |
+| webpack-v4 | [webpack-v4](https://github.com/Iixianjie/launch-template-webpack-v4) | 日常开发用webpack4配置      |
 
 <br>
 
