@@ -9,8 +9,8 @@
 | 名称       | repo                                                     | 说明                              |
 | ---------- | ------------------------------------------------------------ | --------------------------------- |
 | vue-cli-v3 | [vue-cli-v3](https://github.com/Iixianjie/launch-template-vue-cli-v3) | vue-cli3 + 大量示例代码和样板代码以及额外配置 |
-| webpack-v3 | [webpack-v3](https://github.com/Iixianjie/launch-template-webpack-v3) | 切图配置，支持多页面       |
-| webpack-v4 | [webpack-v4](https://github.com/Iixianjie/launch-template-webpack-v4) | 日常开发用webpack4配置      |
+| webpack-v3 | [webpack-v3](https://github.com/Iixianjie/launch-template-webpack-v3) | 切图配置，支持多页面(请使用v4)       |
+| webpack-v4 | [webpack-v4](https://github.com/Iixianjie/launch-template-webpack-v4) | 用于日常开发的webpack4配置，除了基本配置外添加了多页面支持、使用pug替代默认的ejs模板、基本包含所有常用的功能配置，对react提供开箱即用的支持。      |
 
 <br>
 
